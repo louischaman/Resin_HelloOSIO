@@ -1,12 +1,10 @@
 #!/usr/bin/python
 
 import time
-import picamera
+#import picamera
 
-with picamera.PiCamera() as camera:
-#    # Camera warm-up time
-    time.sleep(2)
-#    camera.capture('../data/image.jpg')
+##    # Camera warm-up time
+##    camera.capture('../data/image.jpg')
 
 # this infinite loop just allows us to keep the container running
 # so we can use the webterminal to ssh in and check that the image
