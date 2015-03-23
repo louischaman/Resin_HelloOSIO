@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import paho.mqtt.client as mqtt
 mqttc = mqtt.Client(client_id="1046")
-mqttc.username_pw_set("Louis", password="eMvuUIkq")
+mqttc.username_pw_set("Louis", password="xxxxxxxx")
 
 import time
 counter = 0
