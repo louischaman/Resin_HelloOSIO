@@ -14,4 +14,12 @@ For an explination on how [resin.io](https://resin.io/) uses Dockerfiles check o
 
 __Note:__ Obviously apt package manager will only work in Debian environments.
 
+## Additions for OpenSensors
+
+Added 2 lines to the docker file to install python-pip and paho-mqtt client library for python. 
+
+Created a loop in the python script that connects and publishes to OSIO
+
+
+
 
